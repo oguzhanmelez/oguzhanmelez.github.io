@@ -4306,7 +4306,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-radius: 4px;
 }
 .navbar-toggle:focus {
-  outline: 0;
+  outline:0;
 }
 .navbar-toggle .icon-bar {
   display: block;
@@ -4530,14 +4530,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
-  border-color: #ddd;
+  border-color: #2196F3;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #ddd;
+  background-color: #37474F;
+  
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #888;
+  background-color: #fff;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
