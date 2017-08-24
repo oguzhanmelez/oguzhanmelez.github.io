@@ -5,7 +5,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE-edge"/>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
-	
+	<meta name="Description" content="Zümrüt Yufka, Yufka, Mantı, Kadayıf, Erişte, Kuru Yufka, Kemalpaşa, Zümrütevler, Zümrütevler Yufka, Kastamonu, Yufkacı,
+    Güllaç, Lor peyniri, Muhallebilik kadayıf"/>
     <title>Zümrüt Yufka</title>
     
 </head>
@@ -91,12 +92,12 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="#" class="navbar-brand" style="font-size:20px">
+            <a href="index.html" class="navbar-brand" style="font-size:20px">
             Zümrüt Yufka
             </a> 
         	</div><!-- Finish navbar-header -->
            <div class="collapse navbar-collapse" id="main-nav">
-          	 <ul class="nav navbar-nav logo"> 
+          	 <ul class="nav navbar-nav pull-right  logo"> 
           		 <li class="active"><a href="index.html">Anasayfa</a></li> 
            		<li><a href="#">Hakkımızda</a></li> 
            		<li><a href="#">Ürünler</a></li> 
@@ -109,11 +110,17 @@
 </div><!-- Finish navbar container div -->
 
 
- 
+<script>
+$(function () {
+    $(".nav a").on("click", function(){
+        $(".nav").find(".active").removeClass("active");
+        $(this).parent().addClass("active");
+    });
+});
+</script>
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
-<script src="js/transition.js"></script>        
-      
+   
 
 </body>     
 </html>
